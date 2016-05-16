@@ -1,0 +1,20 @@
+AUTHORS:
+	Dimitris Pomonis dimitrispomonis11@gmail.com
+	Konstantinos Kazatzis kon.kazatzis@gmail.com
+	Thanasis Kostas kostasthanasis@yahoo.gr 
+
+PROJECT: An auction server composed by 3 auctioneers. The project is implemented in C++
+
+GETTING STARTED:
+	Linux: In order to compile the project you need a suitable C++ compiler, the pthread library and the libmysqlcppconn-dev library.
+	In the Makefile change DEBUG from DEBUG ?= 1 to DEBUG ?= 0 if you dont wish to see DEBUG messages, and KEEP_LOG ?= 1 to KEEP ?= 0 if you dont wish to keep log file in the (log_file.txt). Also change the KEEP_DB flag to 1 if you wish to maintain a mysql database. If you do so you also have to create a mysql database with name 'project_database' and create the necessary tables in it, found in the function create_register_table() and create_bidder_table() in the DBServer.cpp file. Also in the function create_connection() change the username and password to the ones of your mysql server.
+
+ARCHITECTURE OVERVIEW:
+	The auction server is compoesed by 3 auctioneers and numerous bidders. Eache bidder is connected to one auctioneer. Each auctioneer is given an ID number (0,1,2). Each auctioneer listens for incoming conenctions in PORT_BASE (49152) + ID. PORT_BASE is the start of free to use ports. Each auctioneer has its own RegisterServer which holds the information about the connected bidders. The program that start all is the driver-auction which starts the 3 auctioneers
+
+HOW TO RUN:
+	Regular version: After compilation run the driver-auction executable. At this point run whenever you want the bidder executable providing the name and the auctoneer server you want to connect to. Type y or Y at the driver terminal at any time you want to start a new item aucion. After the item auction has started type y or Y at the bidder if you are interested. The bidder's commands are listed in his terminal. At any time you want you can connect a new bidder or quit an existing one.
+	Auto version: Everything is the same but the fact that you dont have to manually bid in the bidder terminal. Check the config.cfg file for the bidding details. maxfrequency is the max time the bidder waits for the next bid (random number between 1,maxfrequency) (frequency wrong word :( ). maxbidmultiplier defines the max value the bidder will bid like this: (random(1~maxbidmultiplier)+random(1~10)*0.1)*initial_price. The bidder every time he bids increases the bid at a random number between 10% ~ 30%.
+
+
+	

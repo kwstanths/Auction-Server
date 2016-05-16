@@ -1,0 +1,32 @@
+2016-04-21[06:05]:[Auctioneer 2] -> Waiting connections
+2016-04-21[06:05]:[Auctioneer 1] -> Waiting connections
+2016-04-21[06:05]:[Auctioneer 0] -> Waiting connections
+2016-04-21[06:05]:[driver] -> Created Auctioneer threads and waiting for y's
+2016-04-21[06:22]:[Auctioneer 0] -> User: user0 connected
+2016-04-21[06:26]:[Auctioneer 1] -> User: user1 connected
+2016-04-21[06:30]:[Auctioneer 2] -> User: user2 connected
+2016-04-21[06:35]:[Auctioneer 1] -> User: billhs connected
+2016-04-21[06:36]:[driver] -> Starting new auction for 'ball' starting at: 20
+2016-04-21[06:36]:[Auctioneer 0] -> New item auction: 'ball' starting at: 20
+2016-04-21[06:36]:[Auctioneer 0] -> Starting the 'asking the users if they are interested' section
+2016-04-21[06:36]:[Auctioneer 1] -> New item auction: 'ball' starting at: 20
+2016-04-21[06:36]:[Auctioneer 1] -> Starting the 'asking the users if they are interested' section
+2016-04-21[06:36]:[Auctioneer 2] -> New item auction: 'ball' starting at: 20
+2016-04-21[06:36]:[Auctioneer 2] -> Starting the 'asking the users if they are interested' section
+2016-04-21[06:38]:[Auctioneer 0] -> User: user0 is interested
+2016-04-21[06:39]:[Auctioneer 1] -> User: user1 is interested
+2016-04-21[06:41]:[Auctioneer 2] -> User: user2 is interested
+2016-04-21[06:43]:[Auctioneer 1] -> User: billhs is interested
+2016-04-21[07:01]:[Auctioneer 0] -> The 'asking the users if they are interested' section ended
+2016-04-21[07:01]:[Auctioneer 2] -> The 'asking the users if they are interested' section ended
+2016-04-21[07:01]:[Auctioneer 1] -> The 'asking the users if they are interested' section ended
+2016-04-21[07:02]:[Auctioneer 0] -> Statring the 'bidding' section with interested users
+2016-04-21[07:02]:[Auctioneer 2] -> Statring the 'bidding' section with interested users
+2016-04-21[07:02]:[Auctioneer 1] -> Statring the 'bidding' section with interested users
+2016-04-21[07:06]:[Auctioneer 1] -> User: billhs bidded: 25
+2016-04-21[07:06]:[Auctioneer 0] -> New high bid: 25
+2016-04-21[07:06]:[Auctioneer 2] -> New high bid: 25
+2016-04-21[07:08]:[Auctioneer 1] -> User: user1 disconnected abnormally
+2016-04-21[07:10]:[Auctioneer 0] -> User: user0 disconnected abnormally
+2016-04-21[07:12]:[Auctioneer 2] -> User: user2 disconnected abnormally
+2016-04-21[07:13]:[Auctioneer 1] -> User: billhs disconnected abnormally

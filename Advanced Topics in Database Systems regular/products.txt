@@ -1,0 +1,7 @@
+6
+20|ball
+300|pc
+400|boat
+900|car
+200|iphone
+300|bicycle

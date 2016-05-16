@@ -1,0 +1,131 @@
+2016-04-21[57:53]:[driver] -> Created Auctioneer threads and waiting for y's
+2016-04-21[57:53]:[Auctioneer 0] -> Waiting connections
+2016-04-21[57:53]:[Auctioneer 1] -> Waiting connections
+2016-04-21[57:53]:[Auctioneer 2] -> Waiting connections
+2016-04-21[58:00]:[Auctioneer 1] -> User: jim connected
+2016-04-21[58:09]:[Auctioneer 2] -> User: nikos connected
+2016-04-21[58:15]:[Auctioneer 0] -> User: manolis connected
+2016-04-21[58:22]:[Auctioneer 1] -> User: soula connected
+2016-04-21[58:25]:[driver] -> Starting new auction for 'ball' starting at: 20
+2016-04-21[58:25]:[Auctioneer 0] -> New item auction: 'ball' starting at: 20
+2016-04-21[58:25]:[Auctioneer 0] -> Starting the 'asking the users if they are interested' section
+2016-04-21[58:25]:[Auctioneer 1] -> New item auction: 'ball' starting at: 20
+2016-04-21[58:25]:[Auctioneer 1] -> Starting the 'asking the users if they are interested' section
+2016-04-21[58:25]:[Auctioneer 2] -> New item auction: 'ball' starting at: 20
+2016-04-21[58:25]:[Auctioneer 2] -> Starting the 'asking the users if they are interested' section
+2016-04-21[58:29]:[Auctioneer 1] -> User: soula is interested
+2016-04-21[58:31]:[Auctioneer 0] -> User: manolis is interested
+2016-04-21[58:32]:[Auctioneer 2] -> User: nikos is interested
+2016-04-21[58:33]:[Auctioneer 1] -> User: jim is interested
+2016-04-21[58:50]:[Auctioneer 0] -> The 'asking the users if they are interested' section ended
+2016-04-21[58:50]:[Auctioneer 1] -> The 'asking the users if they are interested' section ended
+2016-04-21[58:50]:[Auctioneer 2] -> The 'asking the users if they are interested' section ended
+2016-04-21[58:51]:[Auctioneer 0] -> Statring the 'bidding' section with interested users
+2016-04-21[58:51]:[Auctioneer 1] -> Statring the 'bidding' section with interested users
+2016-04-21[58:51]:[Auctioneer 2] -> Statring the 'bidding' section with interested users
+2016-04-21[58:58]:[Auctioneer 0] -> User: manolis bidded: 22
+2016-04-21[58:58]:[Auctioneer 1] -> New high bid: 22
+2016-04-21[58:58]:[Auctioneer 2] -> New high bid: 22
+2016-04-21[58:58]:[Auctioneer 1] -> User: jim bidded: 24
+2016-04-21[58:58]:[Auctioneer 2] -> User: nikos bidded: 24
+2016-04-21[58:58]:[Auctioneer 0] -> New high bid: 24
+2016-04-21[58:58]:[Auctioneer 0] -> New high bid: 24
+2016-04-21[58:58]:[Auctioneer 1] -> New high bid: 24
+2016-04-21[58:58]:[Auctioneer 2] -> New high bid: 24
+2016-04-21[59:05]:[Auctioneer 0] -> User: manolis bidded: 31
+2016-04-21[59:05]:[Auctioneer 1] -> New high bid: 31
+2016-04-21[59:05]:[Auctioneer 2] -> New high bid: 31
+2016-04-21[59:08]:[Auctioneer 1] -> User: soula bidded: 36
+2016-04-21[59:08]:[Auctioneer 0] -> New high bid: 36
+2016-04-21[59:08]:[Auctioneer 2] -> New high bid: 36
+2016-04-21[59:18]:[Auctioneer 2] -> User: nikos bidded: 46
+2016-04-21[59:18]:[Auctioneer 0] -> New high bid: 46
+2016-04-21[59:18]:[Auctioneer 1] -> New high bid: 46
+2016-04-21[59:22]:[Auctioneer 0] -> User: manolis bidded: 48
+2016-04-21[59:22]:[Auctioneer 1] -> New high bid: 48
+2016-04-21[59:22]:[Auctioneer 2] -> New high bid: 48
+2016-04-21[59:30]:[Auctioneer 2] -> User: nikos bidded: 54
+2016-04-21[59:30]:[Auctioneer 0] -> New high bid: 54
+2016-04-21[59:30]:[Auctioneer 1] -> New high bid: 54
+2016-04-21[59:55]:[Auctioneer 1] -> Item auction ended
+2016-04-21[59:55]:Item (ball) winner: nikos at 54 from server: 2
+2016-04-21[59:55]:[Auctioneer 2] -> Item auction ended
+2016-04-21[59:55]:[Auctioneer 0] -> Item auction ended
+2016-04-21[59:58]:[driver] -> Starting new auction for 'pc' starting at: 300
+2016-04-21[59:58]:[Auctioneer 0] -> New item auction: 'pc' starting at: 300
+2016-04-21[59:58]:[Auctioneer 0] -> Starting the 'asking the users if they are interested' section
+2016-04-21[59:58]:[Auctioneer 1] -> New item auction: 'pc' starting at: 300
+2016-04-21[59:58]:[Auctioneer 1] -> Starting the 'asking the users if they are interested' section
+2016-04-21[59:58]:[Auctioneer 2] -> New item auction: 'pc' starting at: 300
+2016-04-21[59:58]:[Auctioneer 2] -> Starting the 'asking the users if they are interested' section
+2016-04-21[00:00]:[Auctioneer 1] -> User: jim is interested
+2016-04-21[00:01]:[Auctioneer 2] -> User: nikos is interested
+2016-04-21[00:04]:[Auctioneer 0] -> User: manolis is interested
+2016-04-21[00:06]:[Auctioneer 1] -> User: soula is interested
+2016-04-21[00:23]:[Auctioneer 2] -> The 'asking the users if they are interested' section ended
+2016-04-21[00:23]:[Auctioneer 0] -> The 'asking the users if they are interested' section ended
+2016-04-21[00:23]:[Auctioneer 1] -> The 'asking the users if they are interested' section ended
+2016-04-21[00:23]:[Auctioneer 2] -> Statring the 'bidding' section with interested users
+2016-04-21[00:23]:[Auctioneer 0] -> Statring the 'bidding' section with interested users
+2016-04-21[00:23]:[Auctioneer 1] -> Statring the 'bidding' section with interested users
+2016-04-21[00:25]:[Auctioneer 0] -> User: manolis bidded: 390
+2016-04-21[00:25]:[Auctioneer 1] -> New high bid: 390
+2016-04-21[00:25]:[Auctioneer 2] -> New high bid: 390
+2016-04-21[00:27]:[Auctioneer 1] -> User: jim bidded: 507
+2016-04-21[00:27]:[Auctioneer 0] -> New high bid: 507
+2016-04-21[00:27]:[Auctioneer 2] -> New high bid: 507
+2016-04-21[00:31]:[Auctioneer 1] -> User: soula bidded: 608
+2016-04-21[00:31]:[Auctioneer 0] -> New high bid: 608
+2016-04-21[00:31]:[Auctioneer 2] -> New high bid: 608
+2016-04-21[00:33]:[Auctioneer 0] -> User: manolis bidded: 668
+2016-04-21[00:33]:[Auctioneer 1] -> New high bid: 668
+2016-04-21[00:33]:[Auctioneer 2] -> New high bid: 668
+2016-04-21[00:38]:[Auctioneer 2] -> User: nikos bidded: 734
+2016-04-21[00:38]:[Auctioneer 0] -> New high bid: 734
+2016-04-21[00:38]:[Auctioneer 1] -> New high bid: 734
+2016-04-21[00:43]:[Auctioneer 1] -> User: soula bidded: 900
+2016-04-21[00:43]:[Auctioneer 0] -> New high bid: 900
+2016-04-21[00:43]:[Auctioneer 2] -> New high bid: 900
+2016-04-21[01:08]:Item (pc) winner: soula at 900 from server: 1
+2016-04-21[01:08]:[Auctioneer 1] -> Item auction ended
+2016-04-21[01:08]:[Auctioneer 0] -> Item auction ended
+2016-04-21[01:08]:[Auctioneer 2] -> Item auction ended
+2016-04-21[04:57]:[driver] -> Starting new auction for 'boat' starting at: 400
+2016-04-21[04:57]:[Auctioneer 0] -> New item auction: 'boat' starting at: 400
+2016-04-21[04:57]:[Auctioneer 0] -> Starting the 'asking the users if they are interested' section
+2016-04-21[04:57]:[Auctioneer 1] -> New item auction: 'boat' starting at: 400
+2016-04-21[04:57]:[Auctioneer 2] -> New item auction: 'boat' starting at: 400
+2016-04-21[04:57]:[Auctioneer 1] -> Starting the 'asking the users if they are interested' section
+2016-04-21[04:57]:[Auctioneer 2] -> Starting the 'asking the users if they are interested' section
+2016-04-21[04:59]:[Auctioneer 1] -> User: soula is interested
+2016-04-21[05:00]:[Auctioneer 0] -> User: manolis is interested
+2016-04-21[05:04]:[Auctioneer 2] -> User: nikos is interested
+2016-04-21[05:05]:[Auctioneer 1] -> User: jim is interested
+2016-04-21[05:22]:[Auctioneer 1] -> The 'asking the users if they are interested' section ended
+2016-04-21[05:22]:[Auctioneer 0] -> The 'asking the users if they are interested' section ended
+2016-04-21[05:22]:[Auctioneer 2] -> The 'asking the users if they are interested' section ended
+2016-04-21[05:22]:[Auctioneer 1] -> Statring the 'bidding' section with interested users
+2016-04-21[05:22]:[Auctioneer 0] -> Statring the 'bidding' section with interested users
+2016-04-21[05:22]:[Auctioneer 2] -> Statring the 'bidding' section with interested users
+2016-04-21[05:24]:[Auctioneer 0] -> User: manolis bidded: 480
+2016-04-21[05:24]:[Auctioneer 1] -> New high bid: 480
+2016-04-21[05:24]:[Auctioneer 2] -> New high bid: 480
+2016-04-21[05:30]:[Auctioneer 1] -> User: soula bidded: 576
+2016-04-21[05:30]:[Auctioneer 0] -> New high bid: 576
+2016-04-21[05:30]:[Auctioneer 2] -> New high bid: 576
+2016-04-21[05:35]:[Auctioneer 0] -> User: manolis bidded: 640
+2016-04-21[05:35]:[Auctioneer 1] -> New high bid: 640
+2016-04-21[05:35]:[Auctioneer 2] -> New high bid: 640
+2016-04-21[05:37]:[Auctioneer 1] -> User: soula bidded: 704
+2016-04-21[05:37]:[Auctioneer 0] -> New high bid: 704
+2016-04-21[05:37]:[Auctioneer 2] -> New high bid: 704
+2016-04-21[05:39]:[Auctioneer 2] -> User: nikos bidded: 840
+2016-04-21[05:39]:[Auctioneer 0] -> New high bid: 840
+2016-04-21[05:39]:[Auctioneer 1] -> New high bid: 840
+2016-04-21[05:45]:[Auctioneer 1] -> User: soula bidded: 920
+2016-04-21[05:45]:[Auctioneer 0] -> New high bid: 920
+2016-04-21[05:45]:[Auctioneer 2] -> New high bid: 920
+2016-04-21[06:10]:[Auctioneer 0] -> Item auction ended
+2016-04-21[06:10]:[Auctioneer 2] -> Item auction ended
+2016-04-21[06:10]:Item (boat) winner: soula at 920 from server: 1
+2016-04-21[06:10]:[Auctioneer 1] -> Item auction ended
