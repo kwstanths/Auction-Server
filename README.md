@@ -1,2 +1,3 @@
 # Auction-Server
-Read the READ ME files inside the folders
+Regular version for manual bidding. Automatic bidding for non manual bidding
+More information can be found in the READ ME files in each folder
